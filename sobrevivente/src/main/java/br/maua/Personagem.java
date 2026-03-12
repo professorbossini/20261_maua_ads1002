@@ -1,9 +1,25 @@
 package br.maua;
 public class Personagem {
     String nome;
-    int energia = 10;
-    int fome = 0;
-    int sono = 0;
+    private int energia = 10;
+    private int fome = 0;
+    private int sono = 0;
+
+    //setters
+    public void setEnergia(int e){
+        if(e >= 0 && e <= 10)
+            energia = e;
+    }
+
+    public void setFome(int fome){
+        if(fome >= 0 && fome <= 10)
+            this.fome = fome;
+    }
+
+    public void setSono(int sono) {
+        if(sono >= 0 && sono <= 10)
+            this.sono = sono;
+    }
     
     //método: tipo de retorno, nome, lista de parâmetros e corpo
     void cacar(){

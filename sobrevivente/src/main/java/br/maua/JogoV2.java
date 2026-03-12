@@ -12,6 +12,7 @@ public class JogoV2 {
         //Considerar que ele tem muita fome
         //ou seja, ele tem 60% de probabilidade de comer, 20% de caçar e 20% de dormir
         p1.nome = "John";
+        
         //1: caçar
         //2: comer
         //3: dormir
